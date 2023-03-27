@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    font-family: 'Delicious Handrawn', cursive;
+    color: #5b8e7d;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+
+h4 {
+    font-size: 50px;
+}
+
+.contentContainer {
+    border: solid 20px #BC4B51;
+}
+#submitButton {
+    background-color: #BC4B51;
+    color: #EED2D4;
+    padding: 10px;
+    width: 30%;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 35px;
+}
+
+#searchField {
+    width: 50%;
+    height: 35px;
+    border: solid #EED2D4 2px;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: #EED2D4;
+
+}
+
+.searchInstructions {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

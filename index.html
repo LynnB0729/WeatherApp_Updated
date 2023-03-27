@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lynn's Weather App</title>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="contentContainer">
+        <h1>Current Date and Time</h1>
+
+        <p id="lat"></p>
+        <p id="lon"></p>
+
+        <h1 id="CurrentTemp">Current Temp Based on Coords</h1>
+
+        <br>
+        <br>
+
+        <h2></h2>
+        <p class="searchInstructions">Type in a different city name & check out their weather!</p>
+        <form id="searchForm">
+            <input type="text" value="searchNow" id="searchField">
+            <input type="submit" value="Submit" id="submitButton">
+        </form>
+
+        <h3></h3>
+
+        <h4><span id="reqestedCityTemp"></span></h4>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
